@@ -63,7 +63,6 @@ a{
 .div-1-content{
     padding:100px 0px;
     display:flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background: #ebf7eb;
@@ -72,13 +71,14 @@ a{
   margin-left: 0px;
 }
 .youtube-embed {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin:10px;
+  display:flex;
+  max-width: 100%;
+  margin: 20px auto;
 }
-.youtube-embed iframe{
-    height:534px;
+
+.youtube-embed iframe {
+  top: 0;
+  left: 0;
 }
 /* 
 This is Card Effect manigga */
